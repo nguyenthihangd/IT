@@ -8,7 +8,9 @@ student_num.times do |i|
 end
 
 puts "-------------名簿-------------"
+
 students.each_with_index do |student, i|
   puts "+ #{i + 1}人目の名前は#{student}です"
 end
+
 puts "-----------------------------"
