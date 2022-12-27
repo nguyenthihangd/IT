@@ -8,7 +8,7 @@ elsif (year == 1916 || year == 1940 || year == 1944 || year == 2020 )
   puts "#{year}年にオリンピックは開催されませんでした"
 elsif (year == 2021)
 　puts "コロナのせいで1年遅れで2021年に開催されました"
-elsif (year %4 == )
+elsif (year %4 == 0)
   puts "#{year}年にオリンピックは開催されまでした"
 
 end
