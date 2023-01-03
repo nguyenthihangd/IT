@@ -12,9 +12,19 @@ olympics = [
 ]
 
 puts "第1~10回大会のオリンピック一覧"
-
 # each文を用いて、オリンピックの情報を出力してください
-
-
-
+olympics.each do |xuat|
+  puts "#{xuat[:year]}年＃{xuat[:city]大会}"
 # 豆知識がある場合のみ豆知識について出力してください
+  if xuat[:note] != nil
+      puts "豆知識: #{xuat[:note]}"
+  end
+  puts "______________________"
+  end
+  
+
+
+
+
+
+
